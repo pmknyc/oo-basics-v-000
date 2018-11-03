@@ -1,8 +1,11 @@
 # Make your shoe class here!
-class shoe
+class Shoe
+
+attr_accessor
+attr_reader
 
   def initialize(brand)
-    @brand
+    @brand = brand
 
   end
 
